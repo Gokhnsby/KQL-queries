@@ -1,6 +1,8 @@
+Monitoring OAuth Applications - Set Consent 
+
 ### Description
 This KQL query is crucial for security because it helps monitor and analyze user consent activities in Azure Active Directory (AAD). By examining the consented applications and associated endpoint calls, security teams can detect potentially risky behavior or unauthorized access.
-
+This KQL query provides valuable insights into consented applications, errors, and associated device information, allowing organizations to proactively address security threats and enhance their overall security posture.
 
 Defender
 ```
@@ -38,4 +40,6 @@ DeviceNetworkInfo
 | project Timestamp, Application,LogonType,AccountDisplayName,AccountUpn,EndpointCall,ErrorCode,IPAddress,Country,ClientAppUsed,UserAgent,Browser,AuthenticationRequirement,IsManaged,OSPlatform,Details, DeviceName1, MacAddress, NetworkAdapterStatus
 ```
 ```
+
+
 
