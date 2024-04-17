@@ -8,6 +8,7 @@ This KQL query is crucial for security because it helps monitor and analyse user
 ###___###___###
 
 https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-app-consent
+
 https://www.microsoft.com/en-us/security/blog/2022/09/22/malicious-oauth-applications-used-to-compromise-email-servers-and-spread-spam/
 
 ###___###___###
