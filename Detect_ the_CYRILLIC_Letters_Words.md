@@ -24,7 +24,7 @@ Contextual Understanding: While some legitimate files or applications may legiti
 ###KQL
 
 ```
-//detecting the CYRILLIC letters/words from Device FileEvents using KQL
+//Detecting the CYRILLIC letters/words from Device FileEvents using KQL
 //https://www.ssec.wisc.edu/~tomw/java/unicode.html
 //let folder_paths = dynamic(["C:\\Windows\\System32", "C:\\Windows\\SysWOW64", "C:\\Program Files"]);
 //define the normal chars in our scope to filter them
