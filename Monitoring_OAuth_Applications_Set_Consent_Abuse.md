@@ -1,7 +1,7 @@
 ## Monitoring OAuth Applications - Set Consent Abuse-  
 
 
-###___###__###
+###___###___###
 
 This KQL query is crucial for security because it helps monitor and analyse user consent activities in Azure Active Directory (AAD). By examining the consented applications and associated endpoint calls, security teams can detect potentially risky behavior or unauthorised access.
 
