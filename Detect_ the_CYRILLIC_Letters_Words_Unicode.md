@@ -1,4 +1,4 @@
-## Detecting the CYRILLIC letters/words from Device File Events using KQL
+## Detecting the CYRILLIC letters/words from Device File Events using KQL / Unicode Detection
 
 
 ###___###___###
@@ -10,6 +10,8 @@ This KQL query helps you to identify potential malicious activity involving the 
 https://klizosolutions.medium.com/homograph-attack-using-cyrillic-characters-know-what-it-is-and-how-to-avoid-it-dec024e7cf70
 
 https://www.bleepingcomputer.com/news/security/cyrillic-characters-are-favorites-for-idn-homograph-attacks/
+
+https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/unicode-codepoints-from-string-function
 
 ###___###___###
 
