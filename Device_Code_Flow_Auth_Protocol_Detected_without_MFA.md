@@ -32,7 +32,7 @@ let app1= AADSignInEventsBeta
 //| where not (networkNames contains "Office" )
 | project Timestamp, ReportId, DeviceName, Application, ApplicationId, AccountUpn, AccountDisplayName, Browser, AuthenticationRequirement,ClientAppUsed, IPAddress, Country;
 let app2 = AADSignInEventsBeta
-| where Application =="Microsoft Intune Web Company Portal" // join the other critical app which is not run in office environment (Microsoft Intune Web Company Portal)
+| where Application =="Microsoft Intune Web Company Portal" // join the other critical apps (Microsoft Intune Web Company Portal)
 | where EndpointCall =="Cmsi:Cmsi"
 | project Timestamp, Application, ApplicationId, AccountUpn, AccountDisplayName, Browser, AuthenticationRequirement, ClientAppUsed, IPAddress, Country, ReportId, DeviceName;
 app1
