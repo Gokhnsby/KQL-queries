@@ -5,6 +5,7 @@
 
 This KQL query helps monitor network events and identifies connections to Tor nodes-IPs by cross-referencing the events with external lists of known Tor nodes. Script fetchs lists of Tor nodes-IPs from two external sources:
 The first source is from "https://secureupdates.checkpoint.com/IP-list/TOR.txt".
+The second source is from "https://www.dan.me.uk/torlist/?full".
 
 ###___###___###
 
